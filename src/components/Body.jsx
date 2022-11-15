@@ -31,7 +31,7 @@ const Body = () => {
       </div>
       <div className="services-container">
         <ul>
-          <div className="blabla">
+          <div className="serv">
             <li>
               Delivery{" "}
               <img
@@ -51,7 +51,7 @@ const Body = () => {
               quam qui voluptate enim.
             </p>
           </div>
-          <div className="blabla">
+          <div className="serv">
             <li>
               Refund{" "}
               <img
@@ -71,7 +71,7 @@ const Body = () => {
               quam qui voluptate enim.
             </p>
           </div>
-          <div className="blabla">
+          <div className="serv">
             <li>
               Tracking{" "}
               <img
@@ -91,7 +91,7 @@ const Body = () => {
               quam qui voluptate enim.
             </p>
           </div>
-          <div className="blabla">
+          <div className="serv">
             <li>
               Jobs{" "}
               <img

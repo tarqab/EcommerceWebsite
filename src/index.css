@@ -456,6 +456,7 @@ padding:20px;
 .social-container{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 10px;
 }
 
@@ -467,6 +468,84 @@ margin-bottom: 40px;
   font-size: 25px;
 }
 
+@media screen and (max-width: 1070px) {
+  .shop-tittle {
+    font-size: 25px;
+  }
+  .navbar-search {
+    width: 600px;
+    height: 40px;
+  }
+  .services-container >ul{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 870px) {
+  .navbar-search {
+    width: 500px;
+    height: 35px;
+  }
+    .shop-tittle {
+      font-size: 20px;
+    }
+    .icons-container {
+      width: 80px;
+      margin-left: 10px;
+    }
+    .icons-cart {
+      height: 35px;
+      width: 35px;
+      border-radius: 20px;
 
-/*       ------ Head CSS -----     */
+    }
+    .icons-navbar {
+      height: 35px;
+      width: 35px;
+      border-radius: 20px;
+    }
+    .social-container >div {
+     margin-right: 10px;
+     margin-left: 10px;
+    }
+    .social-container >div>h3 {
+      font-size: 18px;
+    }
+}
+@media screen and (max-width: 660px) {
+  .social-container >div {
+    padding-left: 10px;
+   }
+  .icons-cart {
+   margin-left: 5px;
+  }
+  .navbar-search >p{
+   font-size: 15px;
+  }
+  .categories-list {
+    display: none;
+  } 
+  .email-hardcode{
+    font-size: 15px;
+  }
+  .telefone{
+    display: none;
+  }
+  .label-right-row {
+    font-size: 15px;
+  }
+  .hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-sales{
+    display:none;
+  }
+  .icon-count {
+    width: 16px;
+    border-radius: 26px;
+    font-size: 13px;
+  }
+}
 
